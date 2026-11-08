@@ -194,9 +194,9 @@ En tidigare förmedling sade 37+2 emulatortester. Den obekräftade summan är ö
 
 ### Inte startat
 
-- REQ-20261108-03 och REQ-20261108-06 är loggade som `proposed` och är inte startade. 21:25 saknades fulltexten hos 25 Designs ledare.
-- REQ-04 är loggad och ska inte startas. Ny prototypkod väntar på 03 och ett nytt godkännande från David.
-- REQ-05 är loggad och ska inte startas. Den lokala körningen väntar på David. [REQ-20261108-09](requests/REQ-20261108-09.md) skriver bara en procedur.
+- REQ-20261108-03 får påbörjas som lucklista enligt [REQ-20261108-20](requests/REQ-20261108-20.md). 21:25 saknades fulltexten hos ledaren. Ingen kod i det uppdraget.
+- REQ-04 får bara pusha kod efter den lucklistan, enligt [REQ-20261108-21](requests/REQ-20261108-21.md). Merge är inte godkänd.
+- REQ-05 är inte startad. Ollama med `qwen2.5vl:7b` är igång, men den lokala kopian är smutsig på `0a7c1baa5e848f5bc1ef4691f581bda85438c93a` och är inte ett prov av `67feeb9`. [REQ-20261108-22](requests/REQ-20261108-22.md) skriver proceduren. Ingen pull och ingen omstart.
 - Liten uppföljning efter `67feeb9f672cd76aad56f2db19d850df37b210b7` är bara ett förslag och är inte godkänd.
 - Lampsajt: publicering är inte godkänd. Lagerbeslut är inte taget. Ledaren väntar på Davids beslut om en skrivskyddad inventering.
 - Vänprojekt: all teknik väntar på avtalsomfattning. Inget avtal skrivs här.

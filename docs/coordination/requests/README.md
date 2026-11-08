@@ -36,14 +36,18 @@ REQ-20261108-18 är `partial`. VISTION 10–13 är `blocked` före start. Inget 
 | REQ-20261108-16 | openmarket, Testare | `awaiting-status` | [16](REQ-20261108-16.md) | Ingen |
 | REQ-20261108-17 | Lampsajt, Testare | `awaiting-status` | [17](REQ-20261108-17.md) | Ingen leverans. [Delstatus](../reports/REQ-20261108-18-lampsajt.md) |
 | REQ-20261108-18 | Alla roller utan verifierat läge | `partial` | [18](REQ-20261108-18.md) | [VISTION](../reports/REQ-20261108-18-vistion.md), [Vänprojekt](../reports/REQ-20261108-18-vanprojekt.md), [25 Design](../reports/REQ-20261108-18-25design.md), [Lampsajt](../reports/REQ-20261108-18-lampsajt.md) |
+| REQ-20261108-19 | Första kontakt | `awaiting-status` | [19](REQ-20261108-19.md) | Gemensam rätt att påbörja redan skriven omfattning och pusha |
+| REQ-20261108-20 | 25 Design, UX | `awaiting-status` | [20](REQ-20261108-20.md) | Startar lucklistan i 03. Bara rapport |
+| REQ-20261108-21 | 25 Design, Utveckling | `awaiting-status` | [21](REQ-20261108-21.md) | Kodpush bara efter lucklistan. Ingen merge |
+| REQ-20261108-22 | 25 Design, AI och röst | `awaiting-status` | [22](REQ-20261108-22.md) | Procedur. Den igångsatta Ollama är inte provet av 67feeb9 |
 
 ## Loggade utan start
 
-REQ-20261108-03, 04, 05 och 06 är de texter David godkände att logga 8 november 2026. 21:25 saknades fulltexten i HOPESI. Den är inlagd här. Ingen av dem är startad.
+REQ-20261108-06 är inte startad. 03 påbörjas genom 20. 04 påbörjas genom 21 först när lucklistan finns. 05 påbörjas inte.
 
 | ID | Projekt och roll | Status | Förfrågan | Start |
 | --- | --- | --- | --- | --- |
-| REQ-20261108-03 | 25 Design, UX | `proposed` | [03](REQ-20261108-03.md) | Inte startad. Bara en lucklista. |
-| REQ-20261108-04 | 25 Design, Utveckling | `proposed` | [04](REQ-20261108-04.md) | Ska inte startas. Väntar på 03 och ett nytt godkännande. |
-| REQ-20261108-05 | 25 Design, AI och röst | `proposed` | [05](REQ-20261108-05.md) | Ska inte startas. Den lokala körningen väntar på David. Proceduren utan körning är 09. |
+| REQ-20261108-03 | 25 Design, UX | `proposed` | [03](REQ-20261108-03.md) | Påbörjas genom 20. Bara en lucklista. |
+| REQ-20261108-04 | 25 Design, Utveckling | `proposed` | [04](REQ-20261108-04.md) | Kod bara genom 21, efter lucklistan. Ingen merge. |
+| REQ-20261108-05 | 25 Design, AI och röst | `proposed` | [05](REQ-20261108-05.md) | Ska inte startas. Smutsig kopia. Proceduren är 09 och 22. |
 | REQ-20261108-06 | openmarket, Säkerhet | `proposed` | [06](REQ-20261108-06.md) | Inte startad. Bara läge för en redan begärd granskning. Ingen SHA är påhittad. |
