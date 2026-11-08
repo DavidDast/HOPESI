@@ -32,4 +32,20 @@ Dessa fyra filer är blockeringsrapporter. Uppdragen REQ-20261108-10 till 13 fö
 
 [RPT-REQ-20261108-22.md](RPT-REQ-20261108-22.md) är procedurtexten för REQ-20261108-22 och REQ-20261108-09. Inget Mac-prov är utfört. REQ-20261108-05 är inte startad. Granskningsbeslutet är `unreviewed`.
 
-openmarket har ingen rapport. REQ-20261108-20 finns inte som rapport och skapas inte i förväg. Leveransrapporter saknas fortfarande för 06, 07, 08, 14, 15, 16, 17 och 21.
+## openmarket
+
+[RPT-REQ-20261108-06.md](RPT-REQ-20261108-06.md) är en statusrapport om ett tidigare återgivet säkerhetsbesked för fyra exakta SHA. Den godkänner inte aktuell HEAD och inte lansering. Granskningsbeslutet är `unreviewed`.
+
+[RPT-REQ-20261108-15.md](RPT-REQ-20261108-15.md) är BLOCKERAD. Ingen färdig fyndchecklista finns.
+
+[RPT-REQ-20261108-16.md](RPT-REQ-20261108-16.md) är BLOCKERAD. Inga färdiga testfall finns.
+
+[RPT-REQ-20261108-18.md](RPT-REQ-20261108-18.md) är en partiell openmarket-status. Sex roller väntar fortfarande på egna svar. Filen ersätter inte `REQ-20261108-18-vistion.md`, `REQ-20261108-18-vanprojekt.md`, `REQ-20261108-18-25design.md` eller `REQ-20261108-18-lampsajt.md`.
+
+## Smart hem och UX
+
+[RPT-REQ-20261108-14.md](RPT-REQ-20261108-14.md) är en färdig dokumentinventering. Granskningsbeslutet är `unreviewed`. Manifestets SHA-256 är en filhash, inte en Git-SHA. Ingen hubbstyrning och ingen ny research.
+
+[RPT-REQ-20261108-20.md](RPT-REQ-20261108-20.md) är en statisk UX-lucklista mot `67feeb9f672cd76aad56f2db19d850df37b210b7`. Inget är kört. Den är inte runtime-acceptans. Den enda identifierade implementationsluckan i listan är L1. Granskningsbeslutet är `unreviewed`. Rapportens nästa åtgärd är inte en startorder för rapporten själv.
+
+Leveransrapporter saknas fortfarande för 07, 08, 17 och 21. REQ-20261108-21 skapas inte här.
