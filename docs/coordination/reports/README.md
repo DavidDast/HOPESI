@@ -17,4 +17,19 @@ Skriv inte hemligheter, privata sökvägar, maskinprofil, interna adresser eller
 | [REQ-20261108-18-25design.md](REQ-20261108-18-25design.md) | Bara ledarens utsaga. Rollsvar saknas. |
 | [REQ-20261108-18-lampsajt.md](REQ-20261108-18-lampsajt.md) | Delstatus. Tre roller saknas. |
 
-openmarket har ingen rapport. Leveransrapporter för REQ-20261108-07 till REQ-20261108-17 saknas.
+## Blockerat, 10–13
+
+Dessa fyra filer är blockeringsrapporter. Uppdragen REQ-20261108-10 till 13 förblir `blocked`. De är inte klara sakuppdrag. Konceptversionen är inte verifierad. Samordningsreferensen i rapporterna är `03b261d8f566f8427196e3be85c0459c69f530c1` och är inte en koncept-SHA.
+
+| Rapport | Innehåll |
+| --- | --- |
+| [RPT-REQ-20261108-10.md](RPT-REQ-20261108-10.md) | BLOCKERAT. Idéer och research. Inte en konceptjämförelse. |
+| [RPT-REQ-20261108-11.md](RPT-REQ-20261108-11.md) | BLOCKERAT. UX och visualisering. Inte UX-acceptans. |
+| [RPT-REQ-20261108-12.md](RPT-REQ-20261108-12.md) | BLOCKERAT. Testare. Kontrollerna är inte skrivna. |
+| [RPT-REQ-20261108-13.md](RPT-REQ-20261108-13.md) | BLOCKERAT. Säkerhet och integritet. Inte en kodgranskning. |
+
+## Procedur, separat från 10–13
+
+[RPT-REQ-20261108-22.md](RPT-REQ-20261108-22.md) är procedurtexten för REQ-20261108-22 och REQ-20261108-09. Inget Mac-prov är utfört. REQ-20261108-05 är inte startad. Granskningsbeslutet är `unreviewed`.
+
+openmarket har ingen rapport. REQ-20261108-20 finns inte som rapport och skapas inte i förväg. Leveransrapporter saknas fortfarande för 06, 07, 08, 14, 15, 16, 17 och 21.
