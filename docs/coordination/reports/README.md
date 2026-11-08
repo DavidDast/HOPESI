@@ -48,4 +48,8 @@ Dessa fyra filer är blockeringsrapporter. Uppdragen REQ-20261108-10 till 13 fö
 
 [RPT-REQ-20261108-20.md](RPT-REQ-20261108-20.md) är en statisk UX-lucklista mot `67feeb9f672cd76aad56f2db19d850df37b210b7`. Inget är kört. Den är inte runtime-acceptans. Den enda identifierade implementationsluckan i listan är L1. Granskningsbeslutet är `unreviewed`. Rapportens nästa åtgärd är inte en startorder för rapporten själv.
 
-Leveransrapporter saknas fortfarande för 07, 08, 17 och 21. REQ-20261108-21 skapas inte här.
+## REQ-21
+
+[RPT-REQ-20261108-21.md](RPT-REQ-20261108-21.md) rapporterar L1 på `cursor/req21-graph-from-conversation`, `a5cb8842e202d5ae175a59a5c92055091f987a5d`, med bas `67feeb9f672cd76aad56f2db19d850df37b210b7`. Säkerhet rapporterar godkänd med reservationer för den begränsade diffen. Det är inte merge eller drift. Testerna är inte omkörda här. REQ-20261108-05 är fortsatt stoppad.
+
+Leveransrapporter saknas fortfarande för 07 och 08. REQ-20261108-17 publiceras inte här.
