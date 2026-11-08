@@ -52,3 +52,13 @@ Det här repot, [DavidDast/HOPESI](https://github.com/DavidDast/HOPESI). Koordin
 - openmarket ändras inte från ett 25 Design-uppdrag.
 - VISTION skriver inte en parallell implementation.
 - Opublicerade utkast och infrastrukturpaket som nämns i [STATUS.md](STATUS.md) flyttas inte, publiceras inte och behandlas inte som prototypen.
+
+## Tillägg 8 november 2026 omkring 21:25
+
+Den första projekttexten står kvar. Senare källor:
+
+- Prototypens senare rapporterade SHA är `67feeb9f672cd76aad56f2db19d850df37b210b7` på `cursor/camera-tv-prototype-d4f4`. Den överspelar `40d3529cece4832cb540c6f2229eeb53890a1cbf` som aktualitet. Inte nykontrollerad här. Se [STATUS.md](STATUS.md).
+- Lampsajtens granskade commit enligt ledaren är `ec5b0a7c59891e0b8657977b774f0a382a0da942`, PR https://github.com/DavidDast/25Project/pull/2. Grennamn är inte angivet. Publicering är inte godkänd.
+- openmarket har fortfarande ingen exakt gren eller SHA i den här loggen.
+- VISTION-konceptet har ingen etablerad Git-SHA. Ingen intern adress publiceras. Uppdrag 10–13 är blockerade.
+- Vänprojektets repo, gren och SHA är okända. All teknik är ostartad.

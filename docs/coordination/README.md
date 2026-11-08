@@ -20,7 +20,7 @@ Använd de här märkningarna och inga lösare omskrivningar.
 | Förslag | Förslag. Inte beslut, avtal eller godkännande. |
 | Ogranskat | Nämns eller finns, men är inte granskat. |
 
-Statusen `proposed` på en förfrågan betyder förslag. Den är inte ett godkännande.
+Statusen `proposed` på en förfrågan betyder förslag. Den är inte ett godkännande. Senare lägesord för den godkända textomgången står i [requests/README.md](requests/README.md).
 
 ## Aktuellt mål
 
@@ -39,10 +39,12 @@ Det som är godkänt är den riktningen. Det som inte är godkänt är ny kamera
 - [REQUEST-TEMPLATE.md](REQUEST-TEMPLATE.md) — mall för förfrågan, status `proposed`
 - [REPORT-TEMPLATE.md](REPORT-TEMPLATE.md) — mall för svar efter utfört arbete
 - [TERMINAL-PROMPT.md](TERMINAL-PROMPT.md) — kopierbar prompt till Terminal-AI
-- [requests/README.md](requests/README.md) — tom yta för riktiga förfrågningar
-- [reports/README.md](reports/README.md) — tom yta för riktiga rapporter
+- [requests/README.md](requests/README.md) — index för förfrågningar
+- [reports/README.md](reports/README.md) — index för rapporter
 
-Inga riktiga förfrågningar eller rapporter ligger i katalogerna vid den här ögonblicksbilden. En exempelrad i en mall är inte ett uppdrag.
+Inga riktiga förfrågningar eller rapporter låg i katalogerna vid den första ögonblicksbilden samma kväll. En exempelrad i en mall är inte ett uppdrag.
+
+Tillägg omkring 21:23–21:25 samma dag: David har utsett HOPESI till gemensam Git-logg för de smala textuppdragen REQ-20261108-07 till 18. REQ-20261108-18 är partiell. VISTION-uppdragen 10–13 är blockerade före start. Inget av 07–17 är klart. openmarket har inget svar. Läs [requests/README.md](requests/README.md) och tillägget längst ned i [STATUS.md](STATUS.md).
 
 ## Stående regler
 

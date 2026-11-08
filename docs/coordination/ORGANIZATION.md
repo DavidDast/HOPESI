@@ -52,3 +52,7 @@ Exemplen visar bara vart ett ärende skulle peka. De är inte uppdrag. Starta in
 | Nya idéer | VISTION, Idéer och research |
 
 Smart hem-research inkluderar inte kontakt med hubb, riktig styrning eller automation. Se [WORKFLOW.md](WORKFLOW.md) för vad som kräver Davids godkännande i chatten, och [REQUEST-TEMPLATE.md](REQUEST-TEMPLATE.md) för hur ett förslag skrivs. Status på ett nytt förslag är `proposed`.
+
+## Tillägg 8 november 2026 omkring 21:25
+
+Trädet ovan står kvar. Statussvar samma kväll namnger fler roller hos Lampsajt och Vänprojekt Avtal, och målroller för openmarket i REQ-20261108-15 och REQ-20261108-16. De står i [rapporterna](reports/README.md) och i [förfrågningarna](requests/README.md). De skrivs inte in i trädet som om de fanns i den första ögonblicksbilden. Inget nytt uppdrag skapas åt dem utöver de redan villkorade textuppdragen. VISTION Utveckling får inget nytt uppdrag.

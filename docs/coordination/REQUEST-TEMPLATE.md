@@ -33,3 +33,7 @@ Svarsreferens: (tom tills en rapport finns)
 ```
 
 `Status: proposed` ska stå kvar. Byt inte till ett godkännandeord. David godkänner i chatten, och Första kontakt dirigerar.
+
+## Tillägg 8 november 2026 omkring 21:23
+
+Mallen ovan är fortfarande `proposed` för ett nytt förslag. Den godkända omgången REQ-20261108-07 till 18 använder fälten ID, projekt, målroll, mål, kontext, källa (repo, gren och fullständig SHA, eller uttryckligen saknad dokumentkälla), omfattning, avgränsningar, observerbar acceptans, beroenden, observerat mot rapporterat, behörighet, ägare, status och svarsreferens. Lägesorden där är `awaiting-status`, `partial` och `blocked`. `completed` används inte. Index: [requests/README.md](requests/README.md).
