@@ -4,6 +4,8 @@
 
 Texten samlar Davids överlämning samma dag. Prototyp-repot lästes inte om när filen skrevs. Molnets egen testrapport är inte ett oberoende godkännande och inte ett skäl att säga att arbetet är klart.
 
+Tillägg samma kväll omkring 21:23–21:25 står längst ned. Påståendet att `40d3529cece4832cb540c6f2229eeb53890a1cbf` är aktuell HEAD är överspelat som aktualitet. Texten ovan står kvar som den tidigare ögonblicksbilden. REQ-20261108-18 är partiell. VISTION 10–13 är blockerade före start. Inget av 07–17 är klart.
+
 ## Git för prototypen
 
 Källa för grenen och PR-länken: [PROJECTS.md](PROJECTS.md). Fullständiga SHA:
@@ -153,3 +155,50 @@ När David senare, efter granskningen, ber om uppdatering på datorn gäller [WO
 ## Inte godkänt
 
 Ny kamera, ny mikrofon, hemkontroll, kontakt med hubb, beständig lagring, kostnader, debitering, produktion, sammanslagning, driftsättning, force, rebase, reset, amend, historikomskrivning och juridiska åtaganden. Inte heller pull, ominstallation, omstart eller grenbyte förrän granskningen är klar och David ber om nästa steg.
+
+## Tillägg 8 november 2026 omkring 21:23–21:25
+
+Det här tillägget kvalificerar aktualiteten i texten ovan. Det raderar den inte. Inget i tillägget är nykontrollerat i prototyp-repot, butiksrepot eller openmarket. Index: [requests/README.md](requests/README.md).
+
+### Prototypens rapporterade HEAD
+
+Omkring 20:22 var den rapporterade integrations-HEAD `40d3529cece4832cb540c6f2229eeb53890a1cbf`, med oberoende granskning då ännu utan resultat. Omkring 21:04 rapporterar 25 Designs ledare att `67feeb9f672cd76aad56f2db19d850df37b210b7` är granskad för lokalt test med reservationer, utan Mac och utan riktig Ollama. 21:25 rapporterar samma ledare att kodkörningen är inaktiv och att inga nya commits finns. Båda tidpunkterna är rapporterade, inte lästa om här. Som aktualitet överspelar 21:04-rapporten påståendet att `40d3529cece4832cb540c6f2229eeb53890a1cbf` är aktuell HEAD.
+
+Ledaren har nämnt dessa reservationer. De är inte en auktoritativ fullständig lista och inte nyverifierade här. [REQ-20261108-07](requests/REQ-20261108-07.md) ska räkna upp dem från den befintliga rapporten:
+
+- Localhost-DNS kan slå upp externa namn. Literal `127.0.0.1` ska användas.
+- Osanerad modellbanderoll.
+- Teoretiskt avbrottsproblem över 750 ms.
+- Divergens mellan klient och server efter sparning.
+- Befintliga gränser för `VITE_WS_URL` och CORS.
+
+David rapporterar att den lokala körningen är pausad i väntan på godkännande, och att den lokala arbetsytan är smutsig på `0a7c1baa5e848f5bc1ef4691f581bda85438c93a`. Inte inspekterat här. Ingen pull och ingen omstart.
+
+### Logg och REQ-20261108-18
+
+David har omkring 21:23 utsett HOPESI till gemensam Git-logg för krav och avslut för de smala textuppdragen 07–18. Fördelning via projektledare är enligt David gjord av Första kontakt. Utförande är inte därmed bekräftat aktivt.
+
+REQ-20261108-18 är partiell. Status är kontrollerad bara där en rapport finns. Det är inte klart arbete och ändrar inte ett globalt avslut.
+
+| Projekt | 21:25 | Leveranser |
+| --- | --- | --- |
+| VISTION | Fem rollsvar inne | 10–13 blockerade före start. Utveckling får inget nytt uppdrag |
+| Vänprojekt Avtal | Fem rollsvar inne | All teknik ostartad |
+| 25 Design | Bara ledarens utsaga | 07, 08, 09 och 14 fördelade enligt ledaren. Rollsvar saknas. Inte klara |
+| Lampsajt | Delstatus | 17 villkorat, inte bekräftat startat. Inte klart |
+| openmarket | Inget svar | 15 och 16 väntar. Gren och SHA saknas. Inget gissas |
+
+### Butikens testsiffra
+
+En tidigare förmedling sade 37+2 emulatortester. Den obekräftade summan är överspelad som aktuell siffra. Lampsajt-ledaren 21:25 bekräftar endast 37/37. De extra två är obekräftade. Inte kört om här. SHA enligt ledaren: `ec5b0a7c59891e0b8657977b774f0a382a0da942`. PR enligt ledaren: https://github.com/DavidDast/25Project/pull/2. Grennamn är inte angivet. Den SHA:n är inte prototypens `67feeb9f672cd76aad56f2db19d850df37b210b7`.
+
+### Inte startat
+
+- REQ-20261108-03 och REQ-20261108-06 är loggade som `proposed` och är inte startade. 21:25 saknades fulltexten hos 25 Designs ledare.
+- REQ-04 är loggad och ska inte startas. Ny prototypkod väntar på 03 och ett nytt godkännande från David.
+- REQ-05 är loggad och ska inte startas. Den lokala körningen väntar på David. [REQ-20261108-09](requests/REQ-20261108-09.md) skriver bara en procedur.
+- Liten uppföljning efter `67feeb9f672cd76aad56f2db19d850df37b210b7` är bara ett förslag och är inte godkänd.
+- Lampsajt: publicering är inte godkänd. Lagerbeslut är inte taget. Ledaren väntar på Davids beslut om en skrivskyddad inventering.
+- Vänprojekt: all teknik väntar på avtalsomfattning. Inget avtal skrivs här.
+- VISTION Utveckling har inget uppdrag. Ingen ny rutin. Nästa redan planerade tillfälle är 11 november 2026 omkring 19:56.
+- VISTION 10–13 väntar på läsbart befintligt konceptunderlag med version eller datum. Ingen intern adress publiceras. Ingen SHA hittas på.

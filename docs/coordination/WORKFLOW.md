@@ -71,3 +71,15 @@ Det här steget är inte aktuellt nu. När oberoende granskning finns, slutligt 
 - Påstå inte att datorn synkas automatiskt.
 
 Bevara befintlig klon, virtuell miljö, `node_modules` och Ollama. Starta inte en ny klon och gör inte om en lång installation. Känt historiskt startkommando och förbudet att likställa det med `DISABLE_CAMERA=1 bash start.sh` står i [STATUS.md](STATUS.md).
+
+## Tillägg 8 november 2026 omkring 21:23–21:25
+
+David har utsett HOPESI till gemensam Git-logg för krav och avslut för textuppdragen i [requests/README.md](requests/README.md). Den första delen av den här filen står kvar.
+
+Projektledare skickar text till Första kontakt. Första kontakt för in rapporten i en senare incheckning. Den här loggen skickar inga meddelanden och väcker ingen agent. En enda Git-skrivning i HOPESI gör inte ledarna till skrivare, och skrivrätten ger inte rätt till appkod.
+
+Lägesord utöver `proposed`: `awaiting-status`, `partial` och `blocked`. `completed` används inte för 07–18. En fil som finns är inte ett godkännande av någon annan åtgärd än den smala text David redan angett.
+
+För roller utan oberoende verifierat läge kommer [REQ-20261108-18](requests/REQ-20261108-18.md) först, som en statusrad. Om rollen redan har ett uppdrag eller en konflikt hålls den nya leveransen. REQ-20261108-18 är partiell. VISTION 10–13 är blockerade tills ett läsbart konceptunderlag med version eller datum finns. Minnesbaserad källa och påhittad SHA används inte. Exportförsöket görs inte om från den här loggen.
+
+David rapporterar en smutsig lokal arbetsyta. Ingen pull och ingen omstart följer av det här tillägget. Mac-körning väntar på ett separat beslut.
